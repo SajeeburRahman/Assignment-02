@@ -9,3 +9,83 @@
   font-weight: 400;
   font-style: normal;
 }
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 63px;
+    width: 1160px;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    margin-right: 32px;
+    gap: 32px;
+    font-weight: 500;
+}
+.btn{
+    gap: 32px;
+    background-color: orange;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 197px;
+    border: none;
+}
+.nav-item1{
+    color: orange;
+}
+.nav-item2{
+    color: #01ACFD;
+}
+.nav-item3{
+    color: #05D4DF;
+}
+.nav-item4{
+    color: #5D58EF;
+}
+.scl{
+    display: flex;
+}
+.banner{
+    max-width: 1160px;
+    max-height: 575px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* margin-left: 124px;
+    margin-right: 157px; */
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-btn{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Quicksand", serif;
+}
+p{
+    font-family: "Quicksand", serif;
+    /* margin: 24px; */
+    /* vertical-align: 24px; */
+}
+.empowering{
+    color: orange;
+}
+.vision{
+    color: #01ACFD;
+}
+.banner-description{
+    height: 50px;
+    width: 640px;
+    font-size: 1.2rem;
+}
